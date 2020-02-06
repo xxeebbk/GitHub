@@ -1,0 +1,149 @@
+
+body {
+    background-color: rgb(5, 76, 100);
+    font-family:'Righteous', serif;
+    background-image: url("https://www.theglobeandmail.com/resizer/gBD6uzqCUKzdTRNbnNSBtwd9UTc=/1200x0/filters:quality(80)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/25M33DPJSNA3PHO6DBKMKRII34");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+h3 {
+color:white;
+text-align: center;
+}
+
+p {
+color: white;
+text-shadow: black;
+text-align: center;
+font-size: 100px;
+    }
+
+
+#Hero-Wrapper {
+    width: 600px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    
+}
+
+#Buttons {
+    background-color: rgb(212, 212, 7, 75%);
+    border: yellow;
+    width: 300px;
+    height: 60px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    margin-top: 10%;
+    text-decoration: none;
+    }
+
+
+ a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: rgb(212, 212, 7, 75%);
+}
+
+a:active {
+  text-decoration: none;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+ }
+
+#menu {
+background-color: none;
+margin-left: 62%;
+}
+
+ /* Navbar container */
+ .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
