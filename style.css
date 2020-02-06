@@ -2,15 +2,18 @@
 
 body{
     font-family: 'Avenir', sans-serif;
+    
 }
 h1{
     color:brown;
     font-size: 100px;
     font-family:'Palatino', serif;
-
-}
+    display: inline-block;
+   
+    }
 #second-header{
     color:black;
+
 }
 
 p{
@@ -20,8 +23,22 @@ p{
 
 #hero-wrapper{
     width: 600px;
-    margin-right:auto;
+    margin-right: auto;
     margin-left:auto;
     text-align: center;
     margin-top: 10%;
+    position: relative;
+    z-index: 2;
+}
+
+#hero-beans{
+    background-image: url("img/beans.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    width: 50%; 
+    height: 900px;
+    z-index: 1;
 }
