@@ -30,12 +30,12 @@ h1{
 
 
 
-#body {
-    width: 600px;
-    height: 200px;
-    position: relative
-    margin-left: auto;
-    margin-right: auto;
+#aboutme {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    position: relative;
 
 }
 
@@ -56,4 +56,37 @@ p {
     width: 300px;
     text-align: right;
     color: white;
+}
+
+.standard-margin-section{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(350px, auto);
+
+    grid-gap: 15px;
+}
+
+.grid-text{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    background-color: rgb(71, 69, 69);
+
+    padding-left: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-writing{
+    width: 100%;
+    text-align: left;
 }
