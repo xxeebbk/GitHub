@@ -44,6 +44,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    padding-left: 300px;
     
 }
 
@@ -53,7 +54,7 @@ h2 {
 }
 
 p {
-    width: 300px;
+    width: 500px;
     text-align: right;
     color: white;
 }
@@ -78,8 +79,8 @@ p {
     grid-row: 1/2;
     height: 350px;
     background-color: rgb(71, 69, 69);
-
-    padding-left: 250px;
+    width: 500;
+    padding-left: 25px;
     
     display: flex;
     flex-direction: column;
